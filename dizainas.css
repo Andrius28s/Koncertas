@@ -1,0 +1,73 @@
+body{
+    background-color: #11100f;
+}
+
+ul{
+    list-style-type: none;
+    padding: 2px;
+    overflow: hidden;
+    color: aliceblue;
+}
+
+li{
+    float: left
+} 
+a {
+    float: left;
+    display: block;
+    padding: 12px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+h1{
+
+    color: aliceblue;
+    font-size: 80px;
+    font-family:'Bebas Neue';
+    text-align: center;    
+}
+
+h2{
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Bebas Neue';
+    text-align: center; 
+}
+
+    
+#Koveris{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: center;
+    
+}
+
+.container div {
+
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: 50px;
+}
+
+button{
+    color: #11100f;
+    background-color: rgb(56, 174, 54);
+
+}
+
+.text-center {
+    text-align: center;
+}
